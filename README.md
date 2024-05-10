@@ -1,4 +1,4 @@
-# Next.js Hotel San Martin
+# Next.js Choza norteña
 Para correr localmente, se necesita la base de datos.
 ```
 docker-compose up -d
