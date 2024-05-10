@@ -1,5 +1,5 @@
+import { useEffect, useState } from 'react';
 import { useBanner } from '../../hooks';
-import React, { useEffect, useState } from 'react'
 
 export const BannerImage = () => {
 

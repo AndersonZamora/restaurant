@@ -1,0 +1,8 @@
+services:
+  holtesmdb:
+    image: mongo:6.0.12
+    container_name: choza-db
+    ports:
+      - 27017:27017
+    volumes:
+      - ./mongo:/data/db

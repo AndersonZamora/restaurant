@@ -27,8 +27,8 @@ export const ChozaLayout: FC<Props> = ({ children, title, pageDescription, image
                 {
                     imageFullUrl && (
                         <>
-                            <meta name="og:image" content={`/images/${imageFullUrl}`} />
-                            <meta property="og:image" content={`/images/${imageFullUrl}`} />
+                            <meta name="og:image" content={`https://choza-nortenia.vercel.app/images/${imageFullUrl}`} />
+                            <meta property="og:image" content={`https://choza-nortenia.vercel.app/images/${imageFullUrl}`} />
                         </>
                     )
                 }

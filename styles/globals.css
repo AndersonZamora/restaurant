@@ -44,7 +44,7 @@ section {
 
 .title-carta {
     text-align: center;
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 50px !important;
     font-family: "Anton", sans-serif !important;
     font-weight: 400 !important;
@@ -59,25 +59,34 @@ section {
 }
 
 .menu-container {
-    background-color: #FBECFF;
+    background-color: #131d37;
     padding: 15px !important;
     margin-top: 18px !important;
     margin-bottom: 15px !important;
 }
 
 .item-title {
-    color: #000000;
+    color: #ffffff;
     font-family: "Courgette", cursive !important;
     font-weight: 400;
     font-size: 25px !important;
 }
 
+.item-title-1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: "Anton", sans-serif !important;
+    font-weight: 400;
+    margin-bottom: 6px;
+    font-size: 25px !important;
+}
+
 .item-subtitle {
-    color: #555555;
+    color: #979797;
     font-family: "Freeman", sans-serif !important;
     font-weight: 400;
     font-style: normal;
-    font-size: 25px !important;
+    font-size: 20px !important;
 }
 
 .fab {
@@ -89,6 +98,31 @@ section {
     right: 25px;
 }
 
+.justify-content-sear {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.justify-content-sear input {
+    width: 30%;
+}
+
+.p-dialog .p-dialog-content {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+.p-dialog .p-dialog-header {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+.dialog-width {
+    width: 50vw;
+}
+
+/* style={{ width: '50vw' }} */
 @media (max-width: 850px) {
     .banner-logo {
         width: 500px;
@@ -100,6 +134,10 @@ section {
     .banner-logo {
         width: 400px;
         height: 150px;
+    }
+
+    .dialog-width {
+        width: 70vw;
     }
 }
 
@@ -137,6 +175,6 @@ section {
     }
 
     .item-subtitle {
-        font-size: 20px !important;
+        font-size: 16px !important;
     }
 }

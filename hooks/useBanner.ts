@@ -5,7 +5,7 @@ export const useBanner = () => {
     const router = useRouter();
 
     const handlerRouter = () => {
-        router.replace('/carta');
+        router.replace('/menu');
     }
 
     return {
