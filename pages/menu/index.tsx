@@ -14,7 +14,7 @@ const CartaPage = () => {
             <Toolbar>
                 <Container sx={{ mb: 5, mt: 2 }} className='animate__animated animate__fadeIn'>
                     <MenuHome />
-                    <Link href='http://wa.me/51902280814?' target='_blank' className='fab '>
+                    <Link href='http://wa.me/51993102259?' target='_blank' className='fab '>
                         <IconButton>
                             <Badge color="secondary">
                                 <WhatsAppIcon sx={{ fontSize: 40 }} color='success' />

@@ -20,7 +20,7 @@ export const MenuHome = () => {
                 <Typography className='title-carta'>Menú Criollo</Typography>
                 <Typography className='subtitle-1'>Disfruta de la Gastronomia local</Typography>
             </Grid>
-            <Grid item xs={8} sm={8} md={8} lg={8} container className='menu-container'>
+            <Grid item xs={12} sm={10} md={8} lg={8} container className='menu-container'>
                 <Grid item xs={12} md={12}>
                     <Typography className='item-title-1'>Entrada</Typography>
                     {

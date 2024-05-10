@@ -14,7 +14,7 @@ const isValidPago = (password: string): boolean => {
 };
 
 export const isValidFullName = (value: string): boolean => {
-    return validator.isAlpha(value, 'es-ES', { ignore: ' ' })
+    return validator.isAlphanumeric(value, 'es-ES', { ignore: ' /.' })
 };
 
 
